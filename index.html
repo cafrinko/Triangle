@@ -3,13 +3,38 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.12.2.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Drinks</title>
+
+    <title></title>
   </head>
   <body>
     <div class="container">
-
+      <div class="jumbotron">
+        <h1>is it a triangle?</h1>
       </div>
+      <form id="triangle">
+        <div class="form-group">
+          <label for="side1">Side 1 Length</label>
+          <input type="number" class="form-control" id="side1" placeholder="Side length">
+        </div>
+        <div class="form-group">
+          <label for="side2">Side 2 Length</label>
+          <input type="number" class="form-control" id="side2" placeholder="Side length">
+        </div>
+        <div class="form-group">
+          <label for="side3">Side 3 Length</label>
+          <input type="number" class="form-control" id="side3" placeholder="Side length">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+
+<div id="results">
+  <p>Congratulations! you made a <span class ="triangle"></span> triangle!</p>
+</div>
+
+
+
   </body>
+  <script src="js/jquery-1.12.2.js"></script>
+  <script src="js/scripts.js"></script>
 </html>

@@ -1,0 +1,11 @@
+.container {
+  padding-top: 15px;
+}
+
+.headerimage {
+  max-height: 10px;
+}
+
+#results {
+  display: none;
+}
